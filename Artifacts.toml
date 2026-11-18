@@ -1,212 +1,174 @@
 [[liblsl]]
 arch = "aarch64"
-git-tree-sha1 = "e07c960aa4081eb5b3fa51ee3aded4fe4dfabda5"
+git-tree-sha1 = "5d5d2d983631bff15ea89d6f131020d86319b317"
 os = "macos"
 
     [[liblsl.download]]
-    sha256 = "82302805da64e4a6dd768af5a5a84fde3fe60e288ff290f97ad94d9feb9e4e9a"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.aarch64-apple-darwin.tar.gz"
-[[liblsl]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "cefbed74d1b1dbb0b2eba9c9686346c03a1d0173"
-libc = "glibc"
-os = "linux"
-
-    [[liblsl.download]]
-    sha256 = "e20bc1c3d640a110ed4e7ca575ce6561dcf8a62e513a7b3feb28fe583315339e"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "eeb9361c08c9bf09cd5753923d00773eb79733bdaae7a21ec2231275a8a215e0"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.aarch64-apple-darwin.tar.gz"
 [[liblsl]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3a64d5cf8ee99da5212d9a4093297bf9c50506df"
+git-tree-sha1 = "bd7e5c403f76b93b50dac4f2208ad59eb1a7ecc4"
 libc = "glibc"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "6b835a774cb35e7d466d3b8ce404c804786caed5f5b14dbab5e04dd869a8daf4"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "96649b0c9aa1da7c43eb06d11e26a5051292e5900a65cc85463fc7238ca9e3f9"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.aarch64-linux-gnu-cxx11.tar.gz"
 [[liblsl]]
 arch = "aarch64"
-git-tree-sha1 = "92fefa29f3f8dcc76e65e6368ce6d9f20086c58d"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3f4f0151ea34b42f62e974c97f434aa2f4f9cbd6"
+libc = "musl"
+os = "linux"
+
+    [[liblsl.download]]
+    sha256 = "2f66df13e3dd59a9aafbacb84a13496ad3e2bbaacb4a6e059576665a333fce90"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.aarch64-linux-musl-cxx11.tar.gz"
+[[liblsl]]
+arch = "aarch64"
+git-tree-sha1 = "e22056356ae213cb6055905039e65c17bba8e5c8"
 os = "freebsd"
 
     [[liblsl.download]]
-    sha256 = "0de9a80851f61e5f0bba5cba15b87fb4b9f750ad79e037644bd2d42c345faeb1"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.aarch64-unknown-freebsd.tar.gz"
-[[liblsl]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "66d81a634f80f7a84a70d13e8646a6566f00e287"
-libc = "glibc"
-os = "linux"
-
-    [[liblsl.download]]
-    sha256 = "fda6cf6ba1f5f1945d71f42dbde93f23581d7fb4cebe42d4c0b235f359a7efdf"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "66718d992e4ed0f8f61344c8d2d036807e570b4704415b988c98e766396a4243"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.aarch64-unknown-freebsd.tar.gz"
 [[liblsl]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "3c1b866b40f5b12a338f44fb80e95592dd204078"
+git-tree-sha1 = "0cece5ff5eed869f9d2e15b233021a43c903ae4a"
 libc = "glibc"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "29fd49778217cf573b455edc326297476184eef4b0330005cdbd3eb550903719"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "9fa2d1f29c07ddeece26b1e0184bcd43aad49bd67e175bb70a41587a026abbb4"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.armv6l-linux-gnueabihf-cxx11.tar.gz"
+[[liblsl]]
+arch = "armv6l"
+call_abi = "eabihf"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "98c9d0c2ca9f4b2e34b73f11ac7f2d2d49e7bab2"
+libc = "musl"
+os = "linux"
+
+    [[liblsl.download]]
+    sha256 = "9cde5a3431311f8608f78886ca0f103f9ee86a8abb0453b18ae82df4c8602a91"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[liblsl]]
 arch = "armv7l"
 call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "461b3f3b404ce35a5243cb02ca25846ac4da7eef"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "f9448914be288c2a8b4545038843bd054ac19fd0"
 libc = "glibc"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "aabe6f5e1b0b25651b611131fc47d54d25f6ef49b65081827eb989c3bcd75143"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "a5d09c4cbea56039811b49922ceb1a32456c806802b2e91f82f45169e8fe4263"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[liblsl]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e840f72dbd85f11c1a218828a431f583b997b181"
-libc = "glibc"
+git-tree-sha1 = "acb604ee61bc7c07bfcc2a24bb222819068e5a0c"
+libc = "musl"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "f880c0be4d8444d578ddde58fff6ed964764c3d33bf71c50521073acd69085f0"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
-[[liblsl]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "07006cc9f5b075425405bb198602e74039c42838"
-libc = "glibc"
-os = "linux"
-
-    [[liblsl.download]]
-    sha256 = "c9badacc2629391506c263d89f6bde8ce84512d7db1c3e773e68ea5a65ebbdd6"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.i686-linux-gnu-cxx03.tar.gz"
+    sha256 = "3903ba22384b6f32b6a32d649808466944d9988ef77e6f82b0c0862965f62273"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[liblsl]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2eba7f1fa804e14bcf9c5caf447b9e8dc00429a3"
+git-tree-sha1 = "52b6157b867d5f63bc6d018493f8a3202c509093"
 libc = "glibc"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "726a746026904629a156b1d859884c76fe81c708d64098b11658f4f2b0a77c7d"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "90ce53e7e35ad3b3c988f7e14c52fabd2f4ad113da16dc053c34cfe51d0bdf2c"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.i686-linux-gnu-cxx11.tar.gz"
 [[liblsl]]
 arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "30e97145b8acce9c513f3163f3356a83b8727c81"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ef5eb7878d8c0b7b8eae945b3312822aa8465d84"
+libc = "musl"
+os = "linux"
+
+    [[liblsl.download]]
+    sha256 = "b38f01783f7c7c1b92aa320f379d6d823d00644ab4bc0c7c94162841e4333ac5"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.i686-linux-musl-cxx11.tar.gz"
+[[liblsl]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "1ed96a74dfd51f3a6cd099f6a39583994bcda480"
 os = "windows"
 
     [[liblsl.download]]
-    sha256 = "03c6b95ae5827a25c58a2165f3432177df90ba100535d1850086fe0e18cd3ecb"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.i686-w64-mingw32-cxx03.tar.gz"
-[[liblsl]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b99bfb04eff77a0b7527a5895043115a46d79eee"
-os = "windows"
-
-    [[liblsl.download]]
-    sha256 = "aa45dc89f8e24588674ab8dde9a44471077fc2c54df399495bacab6fbbc95caf"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.i686-w64-mingw32-cxx11.tar.gz"
-[[liblsl]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "949f5f86ce0bdd4d7e63382befb007b08ed38008"
-libc = "glibc"
-os = "linux"
-
-    [[liblsl.download]]
-    sha256 = "4f17d92db7b76f5347ebfc14f811f0bd4578633b1734fadf0c477be2506111e5"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.powerpc64le-linux-gnu-cxx03.tar.gz"
+    sha256 = "893292cd3d02e799f81facbd7c2f2185dd7dd6138ce69a846f243a3ea9d1beb3"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.i686-w64-mingw32-cxx11.tar.gz"
 [[liblsl]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "276ccf72cf13fdf3a4536b90ef5320f17f4bb3c2"
+git-tree-sha1 = "d49e68a5e62838aab9c7add515bcfdd14cf740ed"
 libc = "glibc"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "e035ca19d6658078c2c15ffd161b38d5ef2dae84d5b28651835682931919e9b2"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.powerpc64le-linux-gnu-cxx11.tar.gz"
-[[liblsl]]
-arch = "riscv64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "5718e2bad5d7864a8d688ab6639696b4176ac710"
-libc = "glibc"
-os = "linux"
-
-    [[liblsl.download]]
-    sha256 = "a3568ff1d84ad725358655f2e8aa06ce0a539d96ffaa3110b5659ef1737a6b58"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.riscv64-linux-gnu-cxx03.tar.gz"
+    sha256 = "f16da5ddbc0678c77ff338d46ca56c2b5e546a009fecbbe7f37a5ac3ed56f53f"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[liblsl]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cea5d903454ac90c2e25ce9e9b5eb7e99410ba93"
+git-tree-sha1 = "d99dc8e8569b9d437d2fd865121ba1cd6d129bd8"
 libc = "glibc"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "2cabfb489e7c0d0122b25151ba05cad0a20dd11008b24605edf941e443957538"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.riscv64-linux-gnu-cxx11.tar.gz"
+    sha256 = "cd51d0d47d7ce6f547eb426c3f742268fb760f63badc129c63697e9b8d9ed87b"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.riscv64-linux-gnu-cxx11.tar.gz"
 [[liblsl]]
 arch = "x86_64"
-git-tree-sha1 = "696d66f201bc1869b9b9d5a29b92396c0268223e"
+git-tree-sha1 = "47749aff10db749f592d0535e2d7a0eb9812b14d"
 os = "macos"
 
     [[liblsl.download]]
-    sha256 = "1253d1021662993a6250a9d65ad1e2887bc72421f3f7dbe7643c78ade278e4c6"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.x86_64-apple-darwin.tar.gz"
-[[liblsl]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "198274fa6a77d7e17cec47a975afc1a32a46db54"
-libc = "glibc"
-os = "linux"
-
-    [[liblsl.download]]
-    sha256 = "3c3d64f4a81e844c51281ad630f33b85bb9fe36010352a9bd1e302a91a961623"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "50d74507dbb45c3e6e15fa13a0d78afa37f313a9013af007835931535291f36b"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.x86_64-apple-darwin.tar.gz"
 [[liblsl]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "e4fc1edd5d6c7c6fdf73d4cf755c0ca69d6d4d3d"
+git-tree-sha1 = "035b0be65f49673ba11f9711eada5ad5fb2e3bc1"
 libc = "glibc"
 os = "linux"
 
     [[liblsl.download]]
-    sha256 = "77ee9aa5934bf9d6eb1dd665163199eb53f5a16772b864746b9eff99f543bc31"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "0c0f5cb8cfec7f7d770743d54d8314eb3423dbdd9d17507d2684b2b80dae92c5"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.x86_64-linux-gnu-cxx11.tar.gz"
 [[liblsl]]
 arch = "x86_64"
-git-tree-sha1 = "5e6198cf5b5a808fe016c7ed90a61d439aca9748"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9a91ff756dc8ca35cc1b4eea2189b5a5dd6ed2ea"
+libc = "musl"
+os = "linux"
+
+    [[liblsl.download]]
+    sha256 = "83964f4efc403e7d93cdab3a7c07733187bbe3dfd8d9db5d441debc553afd233"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.x86_64-linux-musl-cxx11.tar.gz"
+[[liblsl]]
+arch = "x86_64"
+git-tree-sha1 = "ec9089f7494e323385fcd9c5f771de5cd220282d"
 os = "freebsd"
 
     [[liblsl.download]]
-    sha256 = "52e41e0672abeacaaf6ea8570df27f571a8336953740636f0280b71e8b111741"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.x86_64-unknown-freebsd.tar.gz"
-[[liblsl]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "eac583a2d7a7c29d3176f3ca8a409592ee5445cb"
-os = "windows"
-
-    [[liblsl.download]]
-    sha256 = "387312c773b23fb8ff3f23744a4f7e3220b8e1b7d549ff54936d577dc4415aba"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.x86_64-w64-mingw32-cxx03.tar.gz"
+    sha256 = "01b90a09dda5c39f74c25daa619bb4b9ba4136c93a02115d7ac3a11052d77cb2"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.x86_64-unknown-freebsd.tar.gz"
 [[liblsl]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f1f8d981d53b100d405a3f3cc10d4095e4d7090d"
+git-tree-sha1 = "61959e36cc4103e30a14fd03a2f63f3d730af789"
 os = "windows"
 
     [[liblsl.download]]
-    sha256 = "6a8b40fb25bfad36927d5bcfe4396ee4932e979b74e8a6651da91791aa147b1d"
-    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.16.2+0/liblsl.v1.16.2.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "97acde0c7d48b6f6e67bf3c2aa495db255dffcbd4c82dc77d5155073393f4601"
+    url = "https://github.com/JuliaBinaryWrappers/liblsl_jll.jl/releases/download/liblsl-v1.17.7+0/liblsl.v1.17.7.x86_64-w64-mingw32-cxx11.tar.gz"

@@ -8,7 +8,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         liblsl,
-        "lib/liblsl.1.16.2.dylib",
+        "lib/liblsl.1.17.7.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
